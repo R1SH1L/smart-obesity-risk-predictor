@@ -40,7 +40,7 @@ smart_obesity_project/
    ```
    Prepare your input data as a pandas DataFrame with the same features and order as used during training.
 
-4. **(Optional) Run the Streamlit demo app:**
+4. **Run the Streamlit (demo app):**
    ```bash
    streamlit run app/streamlit_app.py
    ```
