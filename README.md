@@ -2,7 +2,7 @@
 
 This capstone project leverages machine learning models to classify BMI, predict body fat percentage, and provide health insights based on exercise and anthropometric data.
 
-## 📁 Project Structure
+## Project Structure
 ```
 smart_obesity_project/
 ├── data/                   # Input datasets
@@ -13,14 +13,14 @@ smart_obesity_project/
 └── requirements.txt        # Python dependencies
 ```
 
-## 📊 Features
-1. **BMI Classification** using logistic regression.
-2. **Body Fat Percentage Prediction** using a random forest regressor.
-3. **Exercise Data Analysis** for simple health recommendations.
-4. **Demo App (Optional):**  
+## Features
+1. BMI Classification using logistic regression.
+2. Body Fat Percentage Prediction using a random forest regressor.
+3. Exercise Data Analysis for simple health recommendations.
+4. Demo App (Optional):  
    A Streamlit app is included as an example interface for model demonstration.
 
-## 🚀 How to Use
+## How to Use
 
 1. **Install dependencies:**
    ```bash
@@ -46,16 +46,16 @@ smart_obesity_project/
    ```
    > **Note:** The Streamlit app is provided as a demonstration and is not required for using the models.
 
-## 📂 Datasets
+## Datasets
 - `bmi.csv`: Gender, height, weight, and BMI index.
 - `bodyfat.csv`: Age, weight, waist, and other measurements with body fat %.
 - `exercise_dataset.csv`: Duration, calories, heart rate, temperature, etc.
 
-## 🧠 Models
+## Models
 - **BMI Classification:** Logistic Regression
 - **Body Fat Prediction:** Random Forest Regressor
 - **Exercise Recommendations:** Simple rule-based logic
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 These models provide estimates for educational purposes and should not be used as a substitute for professional medical advice..
